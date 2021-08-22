@@ -1,0 +1,162 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Ревматология Перник</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name ="viewport" content="width=device-width,initial-scale=1">
+
+	
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet"> 	
+</head>
+<body>
+	<section id ="banner">
+	<div class ="banner-text">
+		<h1>Ревматология и Остеопороза гр.Перник</h1>
+		<p>Проверете здравословното състояние на костната си система</p>
+		<div class="banner-btn">
+			<a href="#"><span></span>Контакти</a>
+			<a href="#"><span></span>Изследване </a>
+		</div>
+	</div>
+	</section>
+	<div id="navigation">
+		<nav>
+			<ul>
+				<li> <a href="#">Начало</a></li>
+				<li> <a href="#">За Д-р Йонева</a></li>
+				<li> <a href="#">Изсладване</a></li>
+				<li> <a href="#">Контакти</a></li>
+
+			</ul>
+		</nav>
+	</div>
+	<div id="menuButton">
+		<img src="images/menu.png" id="menu">
+	</div>
+
+<!--Информация за пациента -->
+<section id ="info">
+<div class ="title-text">
+	<h1> Информация за пациента</h1>
+
+</div>
+<div class ="info-box">
+	<div class = "info">
+		<h1>Какво е остеопороза?</h1>
+		<div class ="info-description">
+			<div class="info-icon">
+				<i class="fa fa-heartbeat" aria-hidden="true"></i>
+
+
+			</div>
+			<div class="info-text">
+				<p>Остеопорозата е костно заболяване,което се характеризира с намалена костна плътност на костите и повишена чувствителност.То е основна причина за инвалидизиране,особено при възрастните.</p>
+			</div>
+		</div>
+		<h1>Как се диагностицира?</h1>
+		<div class ="info-description">
+			<div class="info-icon">
+				<i class="fa fa-heartbeat" aria-hidden="true"></i>
+
+
+			</div>
+			<div class="info-text">
+				<p>Остеопорозата е наричана ”тихият крадец” защото обикновенно  не боли. Костната загуба е незабележима и едва наличието на счупване при незначителна травма или дори при навеждане и вдигане на тежък предмет  сигнализира за нея<span id ="dots">...</span> <span id ="more">
+
+				Изкривеният гръб(“гърбица”) или намалението на ръстта с повече от 3 см е предупредителен знак за фрактура на прешлемите (гръбначен стълб).Остеопорозата е заплаха за независимостта особено при бедрена фрактура .Повече от половината пациенти (над 65 %) не възвръщат предишната си подвижност след бедрена фрактура и не могат да се обслужват самостоятелно.
+
+				Най-добрият метод за диагностицирането на остеопорозата е измерването на костната плътност с ДХА преди да настъпи счупване.Намаляването с 10%  на костната плътност на прешлените удвоява риска от счупване на прешлени,което е …. причина за продължителна болка в гърба,а намаляването на костната плътност на бедрената шийка с 10% увеличава риска от  с 2,5 пъти.
+
+				Диагнозата остеопроза се подвърждава с тест за костна плъснот.Дензитометрията(ДХА) е основен метод за измерването на плътността и е с най-голяма точност.Изполват се ниска доза рентгенови лъчи (около 1/30 от радиацията от стандартна рентгенова снимка и равна на 2 часа директно излагане на сълнце).Тестът е безкръвен,безболезнен,отнема няколко минути и не се свалят дрехите..</span>
+			</p>
+			<button type ="button" id="read" onclick="read()">Прочети Още </button>
+			<script type="text/javascript">
+				var i=0;
+				function read(){
+					if(!i){
+						document.getElementById("more").style.display = "inline";
+						document.getElementById("dots").style.display = "none";
+						document.getElementById("read").innerHTML="Скрий";
+						i=1;
+
+					}
+					else {
+						document.getElementById("more").style.display = "none";
+						document.getElementById("dots").style.display = "inline";
+						document.getElementById("read").innerHTML="Прочети Още";
+						i=0;
+
+
+					}
+				}
+
+				</script>
+				
+
+
+
+
+
+
+			</div>
+		</div>
+
+		<h1>Кой трябва да си измерва костната плътност</h1>
+		<div class ="info-description">
+			<div class="info-icon">
+				<i class="fa fa-heartbeat" aria-hidden="true"></i>
+
+
+			</div>
+			<div class="info-text">
+				<p>
+					<ul>
+					
+						<li>-Жени над 60 години</li>
+						<li>-Мъже  над 70 години </li>
+						<li>Пациент със счупване</li>
+						<li>Пациенти със заболявания или прием на медикаменти (кортикостероиди,антихормонално лечение,противораково лечение,лекарства за щитовидна железа и др.)</li>
+						<li>Жени в менопауза и рискови фактори за фрактура (ниско телесно тегло, предшестваща фрактура,пушачи,с данни за счупване при родственици,заседнал начин на живот и др.)</li>
+						<li> Ранна менопауза</li>
+						<li>Рентгенофрафски доказателства за остеопорози и деформации на гръбнака.</li>
+						<li>Значително намаляване на ръста.</li>
+
+					</ul>
+					
+				</p>
+			</div>
+		</div>
+
+
+	</div>
+	<div class = "info-img">
+		<img src="images/osteoporosis.jpg">
+	</div>
+</div>
+
+</section>
+
+
+	<script>
+		var menuButton = document.getElementById("menuButton")
+		var navigation = document.getElementById("navigation")
+		var menu = document.getElementById("menu")
+		navigation.style.right = "-250px"
+		menuButton.onclick = function(){
+			if(navigation.style.right == "-250px"){
+				navigation.style.right = "0";
+				menu.src = "images/exit.png";
+			}
+			else {
+				navigation.style.right = "-250px";
+				menu.src ="images/menu.png";
+			}
+			// body...
+		}
+		
+	</script>
+
+ 
+</body>
+</html>
